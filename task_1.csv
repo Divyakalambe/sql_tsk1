@@ -1,0 +1,27 @@
+select * from sports_data
+create table office_data(
+id varchar,
+phone_no int,
+present int,
+absen int,
+name varchar
+)
+insert into office_data(id,phone_no,present,absen,name) values('101',34567890,1,0,'sumin');
+select * from office_data
+insert into office_data(id,phone_no,present,absen,name) values('102',34567890,1,0,'marial');
+insert into office_data(id,phone_no,present,absen,name) values('103',34567860,1,2,'danial');
+select * from office_data
+
+create table school_data(
+name varchar,
+id varchar,
+total_days int ,
+present int,
+absenty int
+)
+insert into school_data(name,id,total_days,present,absenty) values('aditya','101',365,200,100);
+insert into school_data(name,id,total_days,present,absenty) values('ashwin','102',365,100,200);
+insert into school_data(name,id,total_days,present,absenty) values('vidhan','103',365,300,50);
+select * from school_data
+select * from cloth_data
+select * from sports_data
